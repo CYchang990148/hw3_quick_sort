@@ -1,5 +1,11 @@
 # hw3_quick_sort
-## Content
+## About the Program
+### swap function 
+
+### partition function 
+### quicksort function 
+### print funtion
+### main function
 
 ## Results
 ### Input 1
