@@ -2,3 +2,6 @@
 ## Content
 
 ## Results
+### Input 1
+
+### Input 2
