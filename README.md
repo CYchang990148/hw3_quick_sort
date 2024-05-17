@@ -10,7 +10,28 @@ void swap(int *a, int *b){
 ```
 ### partition function 
 ```
-
+int partition(int array[], int start, int end){
+    int pivot = array[start];
+    int left = start + 1;
+    int right = end;
+ 
+    while(1){
+        while(left <= right && array[left] <= pivot){
+        	left++;
+        }
+        while(array[right] >= pivot && right >= left){
+        	right--;
+        }
+        if(right < left){
+        	break;
+        }
+        else{
+        	swap(&array[left], &array[right]);
+        }
+    }
+    swap(&array[start], &array[right]);
+    return right;
+}
 ```
 ### quicksort function 
 ```
