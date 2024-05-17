@@ -53,7 +53,17 @@ void print(int sorted_array[], int n){
 ```
 ### main function
 ```
-
+int main(void){
+    int n = 0, num;
+    int array[100];
+    while(scanf("%d", &num) == 1){
+        array[n++] = num;
+    }
+ 
+    quicksort(array, 0, n - 1);
+    print(array, n);
+    return 0;
+}
 ```
 
 ## Results
