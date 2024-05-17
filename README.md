@@ -35,7 +35,13 @@ int partition(int array[], int start, int end){
 ```
 ### quicksort function 
 ```
-
+void quicksort(int array[], int start, int end){
+    if(start < end){
+        int pivot = partition(array, start, end);
+        quicksort(array, start, pivot - 1);
+        quicksort(array, pivot + 1, end);
+    }
+}
 ```
 ### print function
 ```
