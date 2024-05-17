@@ -45,7 +45,11 @@ void quicksort(int array[], int start, int end){
 ```
 ### print function
 ```
-
+void print(int sorted_array[], int n){
+    for(int i=0; i<n; i++){
+        printf("%d ", sorted_array[i]);
+    }
+}
 ```
 ### main function
 ```
