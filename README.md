@@ -9,6 +9,7 @@ void swap(int *a, int *b){
 }
 ```
 + Initialize a temporary variable "temp" with the value stored at the memory location to which pointer "a" points.
++ The value at the memory location pointed to by pointer "a" is assigned the value at the memory location pointed to by pointer b).
 ### partition function 
 ```
 int partition(int array[], int start, int end){
