@@ -32,9 +32,7 @@ int partition(int array[], int start, int end){
         	swap(&array[left], &array[right]);
         }
     }
-    swap(&array[start], &array[right]);
-    return right;
-}
+    swap(&array[
 ```
 + Initialization
     1. Choose the first element as the pivot.
@@ -58,6 +56,9 @@ void quicksort(int array[], int start, int end){
     }
 }
 ```
++ If the subarray has more than one element (start < end), proceed with sorting.
++ Call partition to rearrange elements around a pivot, and get the pivot index. Elements less than the pivot go to the left, and elements greater go to the right.
++ Recursively apply quicksort to the left subarray (start to pivot - 1). Recursively apply quicksort to the right subarray (pivot + 1 to end).
 ### print function
 ```
 void print(int sorted_array[], int n){
