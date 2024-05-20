@@ -36,6 +36,12 @@ int partition(int array[], int start, int end){
     return right;
 }
 ```
++ Initialization
+    1. Choose the first element as the pivot.
+    2. Set left pointer to the element right after the pivot.
+    3. Set right pointer to the end of the subarray.
++ Partitioning loop
++ Final swap
 ### quicksort function 
 ```
 void quicksort(int array[], int start, int end){
