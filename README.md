@@ -83,7 +83,7 @@ int main(void){
     return 0;
 }
 ```
-+ n is the counter for the number of elements read. num is a temporary variable for storing each input integer.array[100] is the array where the integers will be stored (up to 100 integers).
++ n is the counter for the number of elements read. num is a temporary variable for storing each input integer. array[100] is the array where the integers will be stored (up to 100 integers).
 + scanf reads integers from standard input until EOF. Each integer is stored in the array, and the counter n is incremented.
 + The quicksort function is called to sort the array from index 0 to n - 1.
 + The print function is called to print the sorted array.
