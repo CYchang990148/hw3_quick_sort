@@ -32,7 +32,8 @@ int partition(int array[], int start, int end){
         	swap(&array[left], &array[right]);
         }
     }
-    swap(&array[
+    swap(&array[start], &array[right]);
+    return right;
 ```
 + Initialization
     1. Choose the first element as the pivot.
