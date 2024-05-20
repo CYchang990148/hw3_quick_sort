@@ -68,6 +68,7 @@ void print(int sorted_array[], int n){
     }
 }
 ```
++ Print each element in the sorted array followed by a space.
 ### main function
 ```
 int main(void){
@@ -82,6 +83,7 @@ int main(void){
     return 0;
 }
 ```
++ 
 
 ## Results
 ### Input 1
