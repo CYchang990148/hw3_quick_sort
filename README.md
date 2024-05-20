@@ -41,7 +41,13 @@ int partition(int array[], int start, int end){
     2. Set left pointer to the element right after the pivot.
     3. Set right pointer to the end of the subarray.
 + Partitioning loop
+    1. Increment left until an element greater than the pivot is found.
+    2. Decrement right until an element less than the pivot is found.
+    3. If left and right cross, break the loop.
+    4. Otherwise, swap the elements at left and right.
 + Final swap
+    1. Swap the pivot element with the element at the right pointer.
+    2. Return the right pointer, which is now the pivot's final position.
 ### quicksort function 
 ```
 void quicksort(int array[], int start, int end){
